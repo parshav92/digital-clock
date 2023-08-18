@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('wallpaper.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    overflow: hidden;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    backdrop-filter: blur(10px);
+}
+
+.clock {
+    font-size: 2rem;
+    color: white;
+    background-color: hsla(0, 0%, 0%, 0.5);
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
